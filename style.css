@@ -1,0 +1,125 @@
+/* Universal Selector: */
+   * {
+    margin: 0;                
+    padding: 0;                
+    box-sizing: border-box;      
+    font-family: 'Arial', sans-serif; 
+}
+
+/* Targets the <body> element, which wraps all the content of the webpage. */
+body {
+    background-image: url('picLibrary.avif');        
+    background-size: cover;                         
+    background-repeat: no-repeat;                   
+    background-attachment: fixed;               
+    font-size: 16px;                             
+    line-height: 1.5;                              
+    color: #333;                            
+    padding: 20px;                           
+}
+
+/* Targets the main <h1> heading on the webpage. */
+h1 {
+    color: #351e05;                                
+    background-color: rgba(232, 221, 196, 0.5);    
+    padding: 10px;                                 
+    border-radius: 5px;                        
+    text-align: center;                             
+    margin-bottom: 20px;                             
+    box-shadow: 0 0 10px rgba(59, 87, 7, 0.897);     
+}
+
+/* Targets the .book-form class. This class was added for specificity to the book form. */
+.book-form {
+    font-weight: bold;                              
+}
+
+/* Targets the <form> element, which collects user input. */
+form {
+    width: 40%;                                    
+    background-color: rgba(255, 255, 255, 0.8);    
+    padding: 20px;                            
+    border-radius: 5px;                            
+    margin-bottom: 20px;                              
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);         
+    transform: translateX(70%);
+}
+
+/* Targets text input fields within the form. */
+input[type="text"] {
+    width: 50%;                                 
+    padding: 10px;                                
+    margin: 10px 0;                                
+    border-radius: 5px;                           
+    border: 1px solid #aaa;                         
+}
+
+/* Targets the submit button within the form. */
+input[type="submit"], a.reset-search {
+    background-color: #7a4a17;                    
+    color: white;              
+    padding: 10px 20px;             
+    border: none;                                  
+    border-radius: 5px;                           
+    cursor: pointer;                                  
+    transition: background-color 0.3s ease;           
+    font-size: 16px;
+}
+/* Targets the submit button when it's being hovered over. */
+input[type="submit"]:hover, a.reset-search:hover{
+    background-color: #ac840c;                       
+}
+
+/* Targets the <table> element, used for displaying tabular data. */
+table {
+    width: 90%;                                       
+    background-color: rgba(255, 255, 255, 0.8);      
+    border-collapse: collapse;                        
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);         
+    transform: translateX(5%);
+    /*transform: scaleX(0.9);*/
+}
+
+/* Targets table header cells (<th>) and table data cells (<td>). */
+th, td {
+    padding: 10px;                                   
+    text-align: left;                                 
+    border-bottom: 1px solid #ddd;                   
+}
+
+th {
+    font-size: 18px;
+}
+
+/* Targets table rows (<tr>) when they're being hovered over. */
+tr:hover {
+    background-color: rgba(69, 44, 7, 0.2);       
+    border: solid rgba(47, 35, 7, 0.304);
+}
+
+/* Targets anchor links (<a>) on the webpage. */
+a {
+    color: rgb(112, 27, 27);                               
+    text-decoration: none;                           
+    transition: color 0.3s ease;                      
+}
+
+/* Targets anchor links when they're being hovered over. */
+a:hover {
+    color: #caa841;                               
+}
+
+/* Reset search link styling */
+a.reset-search {
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px; 
+    display: inline-block;
+    margin: 10px 0;
+    transform: translateX(40%);
+}
+
+.my-web {
+    color: rgba(232, 221, 196, 0.8);
+    transform: translateY(100%);
+}
